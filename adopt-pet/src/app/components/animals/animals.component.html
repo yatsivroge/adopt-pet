@@ -1,0 +1,35 @@
+<div class="animals">
+  <form class="animals__filtering-form" [formGroup]="animalFilterForm">
+    <mat-form-field class="animals__filtering-form-control">
+      <mat-label>Find Your Pet</mat-label>
+      <input formControlName="search" matInput>
+    </mat-form-field>
+    <mat-radio-group  formControlName="gender" aria-label="Select an option">
+      <mat-radio-button value="All">All</mat-radio-button>
+      <mat-radio-button value="Male">Male</mat-radio-button>
+      <mat-radio-button value="Female">Female</mat-radio-button>
+    </mat-radio-group>
+    <mat-radio-group aria-label="Select an option" formControlName="animalType">
+      <mat-radio-button value="All">All</mat-radio-button>
+      <mat-radio-button value="Dog">Dog</mat-radio-button>
+      <mat-radio-button value="Cat">Cat</mat-radio-button>
+    </mat-radio-group>
+  </form>
+  <mat-paginator
+    (page)="pageChangeEvent($event)"
+    [length]="(animal$ | async)?.length"
+    [pageIndex]="currentPage"
+    [pageSize]="pageSize"
+    [pageSizeOptions]="[1, 3, 6, 10]"
+    aria-label="Select page">
+  </mat-paginator>
+  <div class="animals__container">
+    <ng-container *ngIf="(animal$ | async)?.length; else noFoundAnimals">
+      <app-animal-card *ngFor="let animal of ((animal$ | async | slice : start : end))"
+                       [animal]="animal"></app-animal-card>
+    </ng-container>
+    <ng-template #noFoundAnimals>
+      Sorry but we cant find any animals toward your search settings
+    </ng-template>
+  </div>
+</div>

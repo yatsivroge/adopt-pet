@@ -1,0 +1,13 @@
+.animal-card {
+  height: 420px;
+  width: 280px;
+
+  &__image {
+    display: block;
+    object-fit: cover;
+    height: 200px;
+    min-height: 200px;
+    width: 100%;
+    max-width: 100%;
+  }
+}

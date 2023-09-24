@@ -1,0 +1,28 @@
+.animals {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0 8px;
+  gap: 8px;
+
+  &__container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 18px;
+  }
+
+  &__filtering-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+
+    &-control {
+      width: 100%;
+    }
+  }
+}

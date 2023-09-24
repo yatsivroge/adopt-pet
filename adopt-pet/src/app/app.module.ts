@@ -15,13 +15,15 @@ import {ReactiveFormsModule} from "@angular/forms";
 import { AnimalsDetailsComponent } from './components/animals-details/animals-details.component';
 import {MatRadioModule} from "@angular/material/radio";
 import {MatPaginatorModule} from "@angular/material/paginator";
+import {MatButtonModule} from "@angular/material/button";
+import { SnackBarComponent } from './shared/snack-bar/snack-bar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     AnimalsComponent,
-    AnimalsDetailsComponent,
+    AnimalsDetailsComponent
   ],
   imports: [
     BrowserModule,
@@ -34,7 +36,9 @@ import {MatPaginatorModule} from "@angular/material/paginator";
     MatInputModule,
     ReactiveFormsModule,
     MatRadioModule,
-    MatPaginatorModule
+    MatPaginatorModule,
+    MatButtonModule,
+    SnackBarComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

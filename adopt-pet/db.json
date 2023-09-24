@@ -2,7 +2,7 @@
   "animals": [
     {
       "id": 1,
-      "species":	"Dog",
+      "species": "Dog",
       "sex": "Female",
       "name": "Goldie",
       "neutered": "Yes",
@@ -11,11 +11,13 @@
       "size": "L",
       "colour": "Brown / White",
       "location": "K9 Back Hall",
-      "photoLink": "https://g.petango.com/photos/1686/62f4eab8-166c-47ba-ba75-42ba7364f74c.jpg"
+      "description": "Meet Sven, a silly goofball who is eager to please! At 2.5 years old, he remains a puppy at heart with energy for days.\n      He was found as a stray in Tennessee, but having lived for 5 months in midtown Toronto, he is well accustomed to navigating busy streets and riding public transit. His beautiful brindle coat and affectionate disposition has earned him many compliments while out and about.\n      In typical hound fashion, this boy is natural at sniffing out scents. He very quickly took to the \"find it\" game\n      tracking down kibble all around the house. One of his other favourite games is catch the treat. His current record stands at catching 13 treats in a row! He was truly built for the great outdoors, enjoying adventures in the sun, rain, and snow. When he settles down, he enjoys lounging in the grass to bathe in the sun.\n      Though he is currently on a hypoallergenic diet to help his digestive system settle, he retains an incredible\n      drive for food, happy to work for kibble throughout the day. After two weeks, he learned that bicycles and traffic\n      guards are not scary after all, and after a month he was regularly walking on a loose leash. Alongside his prescribed diet,\n      he is used to taking biweekly Vitamin B12 injections.",
+      "photoLink": "https://g.petango.com/photos/1686/62f4eab8-166c-47ba-ba75-42ba7364f74c.jpg",
+      "isAdopt": false
     },
     {
       "id": 2,
-      "species":	"Dog",
+      "species": "Dog",
       "sex": "Male",
       "name": "Domme",
       "neutered": "Yes",
@@ -24,11 +26,13 @@
       "size": "M",
       "colour": "Tan / Black",
       "location": "Fosters",
-      "photoLink": "https://g.petango.com/photos/1686/617798fb-5550-470b-841e-b8fec0b15b26.jpg"
+      "description": "Meet Sven, a silly goofball who is eager to please! At 2.5 years old, he remains a puppy at heart with energy for days.\n      He was found as a stray in Tennessee, but having lived for 5 months in midtown Toronto, he is well accustomed to navigating busy streets and riding public transit. His beautiful brindle coat and affectionate disposition has earned him many compliments while out and about.\n      In typical hound fashion, this boy is natural at sniffing out scents. He very quickly took to the \"find it\" game\n      tracking down kibble all around the house. One of his other favourite games is catch the treat. His current record stands at catching 13 treats in a row! He was truly built for the great outdoors, enjoying adventures in the sun, rain, and snow. When he settles down, he enjoys lounging in the grass to bathe in the sun.\n      Though he is currently on a hypoallergenic diet to help his digestive system settle, he retains an incredible\n      drive for food, happy to work for kibble throughout the day. After two weeks, he learned that bicycles and traffic\n      guards are not scary after all, and after a month he was regularly walking on a loose leash. Alongside his prescribed diet,\n      he is used to taking biweekly Vitamin B12 injections.",
+      "photoLink": "https://g.petango.com/photos/1686/617798fb-5550-470b-841e-b8fec0b15b26.jpg",
+      "isAdopt": false
     },
     {
       "id": 3,
-      "species":	"Dog",
+      "species": "Dog",
       "sex": "Male",
       "name": "Rogers",
       "neutered": "No",
@@ -37,11 +41,13 @@
       "size": "L",
       "colour": "Tan / Black",
       "location": "Fosters",
-      "photoLink": "https://g.petango.com/photos/1686/62f4eab8-166c-47ba-ba75-42ba7364f74c.jpg"
+      "description": "She loves people, wilderness adventures, balls, car rides, eating chicken and napping on the sofa.\n\nHer mix is:\n- Shepard (talkative and protects her house and people)\n- Retriever (very playful, loves adventures, swimming, stuffed animals, fetch and food)\n- Border Collie (loves learning new skills, energetic, extremely intelligent, great recall, herding tendencies to keep her people together and would benefit from a job/task because she's very responsive to training).",
+      "photoLink": "https://g.petango.com/photos/1686/62f4eab8-166c-47ba-ba75-42ba7364f74c.jpg",
+      "isAdopt": false
     },
     {
       "id": 4,
-      "species":	"Dog",
+      "species": "Dog",
       "sex": "Male",
       "name": "Rogers",
       "neutered": "Yes",
@@ -50,11 +56,13 @@
       "size": "L",
       "colour": "Tan / Brown",
       "location": "Fosters",
-      "photoLink": "https://g.petango.com/photos/1686/2077b83a-b7f6-4892-b894-ed43b788fa30.jpg"
+      "description": "She loves people, wilderness adventures, balls, car rides, eating chicken and napping on the sofa.\n\nHer mix is:\n- Shepard (talkative and protects her house and people)\n- Retriever (very playful, loves adventures, swimming, stuffed animals, fetch and food)\n- Border Collie (loves learning new skills, energetic, extremely intelligent, great recall, herding tendencies to keep her people together and would benefit from a job/task because she's very responsive to training).",
+      "photoLink": "https://g.petango.com/photos/1686/2077b83a-b7f6-4892-b894-ed43b788fa30.jpg",
+      "isAdopt": false
     },
     {
       "id": 5,
-      "species":	"Dog",
+      "species": "Dog",
       "sex": "Male",
       "name": "Sven",
       "neutered": "No",
@@ -63,7 +71,9 @@
       "size": "S",
       "colour": "Brindle",
       "location": "Facilitated Adoption Home",
-      "photoLink": "https://g.petango.com/photos/1686/2077b83a-b7f6-4892-b894-ed43b788fa30.jpg"
+      "description": "Meet Sven, a silly goofball who is eager to please! At 2.5 years old, he remains a puppy at heart with energy for days.\n      He was found as a stray in Tennessee, but having lived for 5 months in midtown Toronto, he is well accustomed to navigating busy streets and riding public transit. His beautiful brindle coat and affectionate disposition has earned him many compliments while out and about.\n      In typical hound fashion, this boy is natural at sniffing out scents. He very quickly took to the \"find it\" game\n      tracking down kibble all around the house. One of his other favourite games is catch the treat. His current record stands at catching 13 treats in a row! He was truly built for the great outdoors, enjoying adventures in the sun, rain, and snow. When he settles down, he enjoys lounging in the grass to bathe in the sun.\n      Though he is currently on a hypoallergenic diet to help his digestive system settle, he retains an incredible\n      drive for food, happy to work for kibble throughout the day. After two weeks, he learned that bicycles and traffic\n      guards are not scary after all, and after a month he was regularly walking on a loose leash. Alongside his prescribed diet,\n      he is used to taking biweekly Vitamin B12 injections.",
+      "photoLink": "https://g.petango.com/photos/1686/2077b83a-b7f6-4892-b894-ed43b788fa30.jpg",
+      "isAdopt": false
     },
     {
       "id": 6,
@@ -76,11 +86,13 @@
       "size": "M",
       "colour": "Black / White",
       "location": "Facilitated Adoption Home",
-      "photoLink": "https://g.petango.com/photos/1686/617798fb-5550-470b-841e-b8fec0b15b26.jpg"
+      "description": "With a big personality and an even bigger heart, Bailey just may be your new best friend.\n\nWhat's not to love about Bailey? He is handsome, has house manners, can be independent, and is excited to play with other dogs! Bailey's everlasting companionship is not a question of possibility, but rather who will be the lucky one to invite this sweetheart into their life?\n\nWhile he's working towards being the best boy he can be, he's still getting over the hurdle of being comfortable in new environments. The best way to help Bailey is to be patient with him and help pair positive experiences (such as giving him his favourite treats) with being in new environments.",
+      "photoLink": "https://g.petango.com/photos/1686/617798fb-5550-470b-841e-b8fec0b15b26.jpg",
+      "isAdopt": false
     },
     {
       "id": 7,
-      "species":	"Cat",
+      "species": "Cat",
       "sex": "Male",
       "name": "Hood",
       "neutered": "No",
@@ -89,10 +101,13 @@
       "size": "S",
       "colour": "Grey / White",
       "location": "Fosters",
-      "photoLink": "https://g.petango.com/photos/1686/bcdc1462-5492-4d63-9081-433ebf047840.jpg"
-    },{
+      "description": "With a big personality and an even bigger heart, Bailey just may be your new best friend.\n\nWhat's not to love about Bailey? He is handsome, has house manners, can be independent, and is excited to play with other dogs! Bailey's everlasting companionship is not a question of possibility, but rather who will be the lucky one to invite this sweetheart into their life?\n\nWhile he's working towards being the best boy he can be, he's still getting over the hurdle of being comfortable in new environments. The best way to help Bailey is to be patient with him and help pair positive experiences (such as giving him his favourite treats) with being in new environments.",
+      "photoLink": "https://g.petango.com/photos/1686/bcdc1462-5492-4d63-9081-433ebf047840.jpg",
+      "isAdopt": false
+    },
+    {
       "id": 8,
-      "species":"Cat",
+      "species": "Cat",
       "sex": "Female",
       "name": "Pancake",
       "neutered": "Yes",
@@ -101,10 +116,13 @@
       "size": "S",
       "colour": "Black / White",
       "location": "Fosters",
-      "photoLink": "https://g.petango.com/photos/1686/32e1274b-ba4b-4ee3-bf81-2ad11e282525.jpg"
-    },{
+      "description": "Meet Sven, a silly goofball who is eager to please! At 2.5 years old, he remains a puppy at heart with energy for days.\n      He was found as a stray in Tennessee, but having lived for 5 months in midtown Toronto, he is well accustomed to navigating busy streets and riding public transit. His beautiful brindle coat and affectionate disposition has earned him many compliments while out and about.\n      In typical hound fashion, this boy is natural at sniffing out scents. He very quickly took to the \"find it\" game\n      tracking down kibble all around the house. One of his other favourite games is catch the treat. His current record stands at catching 13 treats in a row! He was truly built for the great outdoors, enjoying adventures in the sun, rain, and snow. When he settles down, he enjoys lounging in the grass to bathe in the sun.\n      Though he is currently on a hypoallergenic diet to help his digestive system settle, he retains an incredible\n      drive for food, happy to work for kibble throughout the day. After two weeks, he learned that bicycles and traffic\n      guards are not scary after all, and after a month he was regularly walking on a loose leash. Alongside his prescribed diet,\n      he is used to taking biweekly Vitamin B12 injections.",
+      "photoLink": "https://g.petango.com/photos/1686/32e1274b-ba4b-4ee3-bf81-2ad11e282525.jpg",
+      "isAdopt": false
+    },
+    {
       "id": 9,
-      "species":	"Cat",
+      "species": "Cat",
       "sex": "Female",
       "name": "Buttermilk",
       "neutered": "Yes",
@@ -113,11 +131,13 @@
       "size": "S",
       "colour": "Grey / White",
       "location": "Fosters",
-      "photoLink": "https://g.petango.com/photos/1686/32e1274b-ba4b-4ee3-bf81-2ad11e282525.jpg"
+      "description": "Meet Rogers, the 75-lb lap dog who loves nothing better than curling up beside you, or on you, and settling in for a long cuddle. This happy-go-lucky guy is an easy house companion, snoozing when he's left alone, loving it when you're home, and even more delighted when visitors stop by. Mr Personality is more of a people dog. He has a hard time getting along with his own kind, but with the patient encouragement of his foster parent, he is learning to be more tolerant of other pooches. Even so, Rogers would be happiest if he could live somewhere out of the city, with fewer dogs to think about, a big yard for doing zoomies, and a family that makes him smile all day long",
+      "photoLink": "https://g.petango.com/photos/1686/32e1274b-ba4b-4ee3-bf81-2ad11e282525.jpg",
+      "isAdopt": false
     },
     {
       "id": 10,
-      "species":	"Cat",
+      "species": "Cat",
       "sex": "Male",
       "name": "Hashbrown",
       "neutered": "Yes",
@@ -126,7 +146,9 @@
       "size": "M",
       "colour": "Orange",
       "location": "Fosters",
-      "photoLink": "https://g.petango.com/photos/1686/32e1274b-ba4b-4ee3-bf81-2ad11e282525.jpg"
+      "description": "Meet Rogers, the 75-lb lap dog who loves nothing better than curling up beside you, or on you, and settling in for a long cuddle. This happy-go-lucky guy is an easy house companion, snoozing when he's left alone, loving it when you're home, and even more delighted when visitors stop by. Mr Personality is more of a people dog. He has a hard time getting along with his own kind, but with the patient encouragement of his foster parent, he is learning to be more tolerant of other pooches. Even so, Rogers would be happiest if he could live somewhere out of the city, with fewer dogs to think about, a big yard for doing zoomies, and a family that makes him smile all day long",
+      "photoLink": "https://g.petango.com/photos/1686/32e1274b-ba4b-4ee3-bf81-2ad11e282525.jpg",
+      "isAdopt": false
     }
   ]
 }

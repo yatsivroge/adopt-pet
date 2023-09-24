@@ -1,6 +1,7 @@
 .animal-card {
   height: 420px;
-  width: 280px;
+  width: 310px;
+  position: relative;
 
   &__image {
     display: block;
@@ -10,4 +11,33 @@
     width: 100%;
     max-width: 100%;
   }
+
+  &__image-adopted {
+  }
+
+  &__adopted {
+    &-title {
+      font-size: 30px;
+      position: absolute;
+      top: 40px;
+      left: 50%;
+      font-weight: 500;
+      transform: translate(-50%,40px);
+    }
+    &-image {
+      opacity: 0.3;
+    }
+  }
+}
+
+mat-card-subtitle {
+  overflow: hidden;
+  width: 100%;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+mat-card-actions {
+  justify-content: flex-end;
 }

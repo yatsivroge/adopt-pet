@@ -1,4 +1,4 @@
-import {ChangeDetectionStrategy, Component, Input} from '@angular/core';
+import {ChangeDetectionStrategy, Component, EventEmitter, Input, Output} from '@angular/core';
 import {CommonModule} from "@angular/common";
 import {MatCardModule} from "@angular/material/card";
 import {MatButtonModule} from "@angular/material/button";
@@ -9,7 +9,10 @@ import {RouterLink} from "@angular/router";
   selector: 'app-animal-card',
   template: `
       <mat-card class="animal-card">
-          <img class="animal-card__image"
+          <p class="animal-card__adopted-title" *ngIf="animal.isAdopt">
+            Adopted
+          </p>
+          <img [ngClass]="{'animal-card__adopted-image': animal.isAdopt}" class="animal-card__image"
                [src]="animal.photoLink"
                [alt]="animal.name">
           <mat-card-header>
@@ -23,7 +26,7 @@ import {RouterLink} from "@angular/router";
             <p>Age: {{animal.age}}</p>
           </mat-card-content>
           <mat-card-actions>
-              <button mat-raised-button [routerLink]="'animals/'+ animal.id">Details</button>
+              <button mat-raised-button (click)="onAnimalDetailsClick()">Details</button>
           </mat-card-actions>
       </mat-card>
   `,
@@ -34,4 +37,9 @@ import {RouterLink} from "@angular/router";
 })
 export class AnimalCardComponent {
  @Input() public animal!: Animal;
+ @Output() public animalDetailsClick = new EventEmitter<void>();
+
+ public onAnimalDetailsClick(): void {
+   this.animalDetailsClick.emit()
+ }
 }

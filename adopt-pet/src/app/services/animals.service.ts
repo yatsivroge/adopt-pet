@@ -14,4 +14,12 @@ export class AnimalsService {
   public getAllAnimals(): Observable<Animal[]> {
     return this._http.get<Animal[]>(`${this._url}/animals`)
   }
+
+  public getAnimalById(id: number): Observable<Animal> {
+    return this._http.get<Animal>(`${this._url}/animals/${id}`)
+  }
+
+  public editAnimalById(id: number, updateAnimal: Animal): Observable<Animal> {
+    return this._http.patch<Animal>(`${this._url}/animals/${id}`, updateAnimal)
+  }
 }

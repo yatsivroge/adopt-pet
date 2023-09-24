@@ -5,6 +5,7 @@ import { Animal } from "../../data/interfaces/animal.interface";
 import { take } from "rxjs";
 import { AnimalsStateService } from "../../services/animals-state.service";
 import { PageEvent } from "@angular/material/paginator";
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-animals',
@@ -27,6 +28,7 @@ export class AnimalsComponent implements OnInit {
   public end = this.currentPage * this.pageSize;
   constructor(private readonly _animalService: AnimalsService,
               private readonly _animalsState: AnimalsStateService,
+              private readonly _router: Router,
               private readonly _fb: FormBuilder) {}
 
   ngOnInit() {
@@ -52,9 +54,9 @@ export class AnimalsComponent implements OnInit {
         newFilteredAnimals = this._filterAnimals(newFilteredAnimals, 'species', filters.animalType as string)
       }
 
-      // this.iterator();
-      this.start = this.currentPage * this.pageSize;
-      this.end = (this.currentPage + 1) * this.pageSize;
+      this.iterator();
+      // this.start = this.currentPage * this.pageSize;
+      // this.end = (this.currentPage + 1) * this.pageSize;
       this._animalsState.setAnimals(newFilteredAnimals);
     })
 
@@ -66,6 +68,13 @@ export class AnimalsComponent implements OnInit {
     this.currentPage = event.pageIndex;
     this.pageSize = event.pageSize;
     this.iterator();
+  }
+
+  public onAnimalDetails(animal: Animal | null): void {
+    if (animal) {
+      this._router.navigateByUrl(`animals/${+animal.id}`);
+      this._animalsState.setCurrentAnimal(animal);
+    }
   }
 
   private _filterAnimals(

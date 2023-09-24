@@ -25,8 +25,10 @@
   </mat-paginator>
   <div class="animals__container">
     <ng-container *ngIf="(animal$ | async)?.length; else noFoundAnimals">
-      <app-animal-card *ngFor="let animal of ((animal$ | async | slice : start : end))"
-                       [animal]="animal"></app-animal-card>
+      <app-animal-card
+        *ngFor="let animal of ((animal$ | async | slice : start : end))"
+        [animal]="animal"
+        (animalDetailsClick)="onAnimalDetails(animal)"></app-animal-card>
     </ng-container>
     <ng-template #noFoundAnimals>
       Sorry but we cant find any animals toward your search settings

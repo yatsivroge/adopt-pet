@@ -1,1 +1,39 @@
-<p>animals-details works!</p>
+<div class="animals-details" *ngIf="animal$ | async as animal">
+  <div class="animals-details__header">
+    <h2 class="animals-details__header-title">{{animal.name}}</h2>
+    <button *ngIf="!animal.isAdopt"
+      class="animals-details__header-btn"
+      mat-raised-button color="primary" (click)="adoptAnimal(animal)">Adopt</button>
+  </div>
+  <div class="animals-details__gallery">
+    <img [src]="animal.photoLink" [alt]="animal.name">
+  </div>
+  <div class="animals-details__description">
+    <div class="animals-details__description-content">
+      {{animal.description}}
+    </div>
+    <div class="animals-details__description-characteristics">
+      <p class="animals-details__description-characteristic">
+        <span>Species:</span> <span>{{animal.species}}</span>
+      </p>
+      <p class="animals-details__description-characteristic">
+        <span>Breed:</span> <span>{{animal.breed}}</span>
+      </p>
+      <p class="animals-details__description-characteristic">
+        <span>Sex:</span> <span>{{animal.sex}}</span>
+      </p>
+      <p class="animals-details__description-characteristic">
+        <span>Colour:</span> <span>{{animal.colour}}</span>
+      </p>
+      <p class="animals-details__description-characteristic">
+        <span>Neutered:</span> <span>{{animal.neutered}}</span>
+      </p>
+      <p class="animals-details__description-characteristic">
+        <span>Location:</span> <span>{{animal.location}}</span>
+      </p>
+    </div>
+  </div>
+  <p>
+
+  </p>
+</div>

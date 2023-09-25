@@ -5,14 +5,14 @@
       <input formControlName="search" matInput>
     </mat-form-field>
     <mat-radio-group  formControlName="gender" aria-label="Select an option">
-      <mat-radio-button value="All">All</mat-radio-button>
-      <mat-radio-button value="Male">Male</mat-radio-button>
-      <mat-radio-button value="Female">Female</mat-radio-button>
+      <mat-radio-button
+        *ngFor="let gender of animalGenderValues"
+        [value]="gender.value">{{gender.label}}</mat-radio-button>
     </mat-radio-group>
     <mat-radio-group aria-label="Select an option" formControlName="animalType">
-      <mat-radio-button value="All">All</mat-radio-button>
-      <mat-radio-button value="Dog">Dog</mat-radio-button>
-      <mat-radio-button value="Cat">Cat</mat-radio-button>
+      <mat-radio-button
+        *ngFor="let animalType of animalTypeValues"
+        [value]="animalType.value" >{{animalType.label}}</mat-radio-button>
     </mat-radio-group>
   </form>
   <mat-paginator

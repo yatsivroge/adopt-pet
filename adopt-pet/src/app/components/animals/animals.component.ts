@@ -27,7 +27,7 @@ export class AnimalsComponent implements OnInit, OnDestroy {
   public animalGenderValues = ANIMAL_GENDER_VALUES;
   public animalTypeValues = ANIMAL_TYPE_VALUES;
   public currentPage = 0;
-  public pageSize = 3;
+  public pageSize = 10;
   public start  = (this.currentPage + 1) * this.pageSize;
   public end = this.currentPage * this.pageSize;
   private readonly _destroy$ = new Subject<void>();
